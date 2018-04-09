@@ -1,2 +1,2 @@
-# workshop
+# Workshops
 Watson Machine Learning Workshops
