@@ -43,6 +43,7 @@ Watson Machine Learning Workshops
 2. Create `(+) New notebook` from [file](https://dataplatform.ibm.com/analytics/notebooks/v2/d5e46fc8-3ea5-4982-a161-032905a2c42a/view?access_token=5cd484379907747b0e0e6a99d5546bcac8e39fb22268c7e0ff618db8c4e3c4bd).
 
   **Tip**: download sample notebook from url using download button and use it as a notebook file. Select `Spark` as a runtime environment for the notebook.
+  
 3. Execute notebook cells. Make sure that your Watson Machine Learning service credentials are put in cell [29].
 
   **Tip**: you can find your credentials on the service `credentials` tab (IBM Cloud Dashboard).
