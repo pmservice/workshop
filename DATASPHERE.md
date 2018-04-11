@@ -5,28 +5,26 @@ Watson Machine Learning Workshops
 
 ### Signing up for a free trial
 
-0. If you already have a IBM Cloud account, you can sign in to IBM Cloud at https://www.ibm.com/cloud/. Otherwise follow step 1 to create IBM Cloud account.
+0. If you already have an IBM Cloud account, you can sign in to IBM Cloud at https://www.ibm.com/cloud/. Otherwise, follow step 1 to create IBM Cloud account.
 
 1. Go to https://www.ibm.com/cloud and sign up for a free trial and register for IBM Cloud.
 
 ### Services provisioning
-2. Go to `Catalog` (https://console.bluemix.net/catalog/) and create instances of the following services (**Lite** plan should be chosen):
-  - Cloud Object Storage
-  - Watson Machine learning
-  - Apache Spark
-  - Watson Studio
+2. Go to [Catalog](https://console.bluemix.net/catalog/) and create Watson Studio service instance (**Lite** plan should be chosen)
+  
+**Tip**: Preferred region/location to deploy in: **US South**
 
 ![catalog_view](images/catalog.jpg)
 
 
 ## Creating a new project in IBM Watson Studio
-3. Open Watson Studio created instance and click `Get Started` button
+3. Go to [Dashboard](https://console.bluemix.net/dashboard/apps) and open Watson Studio created instance and click `Get Started` button
 
 4. Once signed in, click on the tile that says `New project`. Scroll to the bottom to find the tile for `Jupyter Notebooks`. Select it and press OK.
 
 ![welcome_page](images/ws_welcome.jpg)
 
-5. Follow the instructions and fill in the details for new project  on the left panel.
+5. Define project name on the left panel and click `Create`. New Cloud Object Storage instance will be created automatically if there is no.
 
 6. Great, you have covered the first milestone.
 
@@ -38,15 +36,17 @@ Watson Machine Learning Workshops
 **Description**: Within this scenario you will develop spark mllib model to predict product purchases. Next you will deploy this model as web service and bind sample web  application to it. The application will send scoring records to deployed model and display predicted purchases.
 
 ### Jupyter Notebook
-1. In project `Settings tab` - `Associated services` section link your spark sevice instance with the project.
+1. In project `Settings tab` - `Associated services` section click `Add service` and create Spark and Machine Learning **Lite** service instances.
 
-2. Create `(+) New notebook` from [file](https://dataplatform.ibm.com/analytics/notebooks/v2/d5e46fc8-3ea5-4982-a161-032905a2c42a/view?access_token=5cd484379907747b0e0e6a99d5546bcac8e39fb22268c7e0ff618db8c4e3c4bd).
+**Tip**: You can see all created services in [IBM Cloud Dashboard](https://console.bluemix.net/dashboard)
 
-  **Tip**: download sample notebook from url using download button and use it as a notebook file. Select `Spark` as a runtime environment for the notebook.
+2. Go to `Assets` tab and create `(+) New notebook` from [file](https://dataplatform.ibm.com/analytics/notebooks/v2/d5e46fc8-3ea5-4982-a161-032905a2c42a/view?access_token=5cd484379907747b0e0e6a99d5546bcac8e39fb22268c7e0ff618db8c4e3c4bd).
+
+  **Tip**: download sample notebook from URL using download button and use it as a notebook file. Select `Spark` service you added to project as a runtime environment for the notebook.
   
 3. Execute notebook cells. Make sure that your Watson Machine Learning service credentials are put in cell [29].
 
-  **Tip**: you can find your credentials on the service `credentials` tab (IBM Cloud Dashboard).
+  **Tip**: you can find your credentials on the Machine Learning service `credentials` tab [IBM Cloud Dashboard](https://console.bluemix.net/dashboard).
 
 4. Great, you have covered the first part of scenario.
 
