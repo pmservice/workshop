@@ -84,7 +84,7 @@ Since our model is deployed as a web service it is a time to provide sample web 
 
 0. Install the Cloud Foundry CLI using this [link](https://github.com/cloudfoundry/cli#downloads).
 
-1. Follow up Style Transfer [application instruction](https://github.com/pmservice/style-transfer/blob/master/README.md) to clone and deploy python web app to your Cloud account.
+1. Follow up Style Transfer [deployment instruction](https://github.com/pmservice/style-transfer/blob/master/README.md) to clone and deploy python web app to your Cloud account.
 
 2. You are all set - run the app by clicking `Visit App URL`.
 
