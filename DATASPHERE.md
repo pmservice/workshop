@@ -92,4 +92,6 @@ Since our model is deployed as a web service it is a time to provide sample web 
 
 4. Take a photo of yourself and drag&drop both photos to web app.
 
-5. Do the Style transfer
+5. Do the Style transfer.
+
+**Note**: Deep Learning Experiment run time depends on number of iterations you select.
