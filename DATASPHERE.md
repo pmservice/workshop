@@ -54,11 +54,17 @@ Watson Machine Learning Workshops
 
 Since our model is deployed as a web service it is a time to provide sample web application that will send scoring records to `scoring_endpoint` and in return present purchases predictions.
 
-1. Deploy product line prediction [application](https://github.com/pmservice/product-line-prediction) to your Cloud account. Follow up [Application deployment](https://github.com/pmservice/product-line-prediction#application-deployment) steps (Deploy to IBM Cloud button).
+Deploy product line prediction [application](https://github.com/pmservice/product-line-prediction) to your Cloud account
 
-2. Open IBM Cloud Dashboard and select deployed application. In `Connections` tab connect your app to Watson Machine Learning service.
+1. Go to [Catalog](https://console.bluemix.net/catalog/) and create Continuous Delivery service.
 
-3. You are all set - run the app by clicking `Visit App URL`.
+2. Click `Start Here` and select `Develop a Cloud Foundry app`
+
+3. On `Tool Integrations` section change **Source repository URL** to `https://github.com/pmservice/product-line-prediction`. (You can remove Eclipse Orion Web IDE)
+
+4. Open [IBM Cloud Dashboard](https://console.bluemix.net/dashboard) and select deployed application in **Cloud Foundry Applications** . In `Connections` tab connect your app to Watson Machine Learning service.
+
+5. `Restage` and you are all set - run the app by clicking `Visit App URL`.
 
 
 ## Scenario 2: Style transfer with Keras
