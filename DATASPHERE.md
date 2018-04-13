@@ -67,7 +67,10 @@ Deploy product line prediction [application](https://github.com/pmservice/produc
 5. `Restage` and you are all set - run the app by clicking `Visit App URL`.
 
 
-## Scenario 2: Style transfer with Keras
+## Scenario 2: 
+
+### 2.1. Keras development using MNIST dataset
+### 2.2. Style transfer with Keras
 **Description**: In this scenario you will learn how to run deep learning experiment to transfer style from famous painting (e.g. Picasso) to your photo.
 
 ### Jupyter Notebook
