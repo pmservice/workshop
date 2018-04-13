@@ -7,7 +7,7 @@ Watson Machine Learning Workshops
 
 0. If you already have an IBM Cloud account, you can sign in to IBM Cloud at https://www.ibm.com/cloud/. Otherwise, follow step 1 to create IBM Cloud account.
 
-1. Go to https://www.ibm.com/cloud and sign up for a free trial and register for IBM Cloud.
+1. Go to https://www.ibm.com/cloud and sign up for a free trial and register for IBM Cloud. When you're signing-up for a new account, please select **United States** as your country.
 
 ### Services provisioning
 2. Go to [Catalog](https://console.bluemix.net/catalog/) and create Watson Studio service instance (**Lite** plan should be chosen)
