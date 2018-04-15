@@ -73,6 +73,8 @@ Deploy product line prediction [application](https://github.com/pmservice/produc
 
 In this step, you will develop a deep learning model to classify hand-written digits using MNIST dataset. [Zip](https://github.com/pmservice/wml-sample-models/raw/master/keras/mnist/MNIST.zip)
 
+[Keras Notebook](https://dataplatform.ibm.com/analytics/notebooks/b9809f95-f8d5-42e7-b9f3-343d9dc673e9/view?access_token=f9491fe943c5376bc300fc1a571b4d1367f25660b14daeed69ddadad0104d148)
+
 ### 2.2. Style transfer with Keras
 **Description**: In this scenario you will learn how to run deep learning experiment to transfer style from famous painting (e.g. Picasso) to your photo.
 
