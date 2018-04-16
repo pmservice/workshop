@@ -109,14 +109,3 @@ In this step, you will develop a deep learning model to classify hand-written di
 5. Do the Style transfer.
 
 **Note**: Deep Learning Experiment run time depends on number of iterations you select.
-
-
-
-```
-{
-  "url": "https://ibm-watson-ml.mybluemix.net",
-  "username": "13423673-1e19-45c4-bd87-816c51b11b7c",
-  "password": "8d16df7a-7ec6-491d-99d2-1de1f629e216",
-  "instance_id": "2a448963-b8ac-449c-bf6f-929948630cc8"
-}
-```
